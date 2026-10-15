@@ -1,0 +1,27 @@
+# Python 编译缓存
+__pycache__/
+*.py[codz]
+
+# 打包生成的文件
+build/
+dist/
+*.egg-info/
+
+# 测试和覆盖率缓存
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 环境变量与虚拟环境
+.env
+.envrc
+.venv
+env/
+venv/
+
+# Jupyter 自动检查点
+.ipynb_checkpoints
+
+# 类型检查和代码检查缓存
+.mypy_cache/
+.ruff_cache/
